@@ -9,6 +9,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "typecheck": "tsc --noEmit",
+    "db:check": "tsx src/database/check-connection.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
